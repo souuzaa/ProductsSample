@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service
 class ProductService(val db: ProductRepository) {
     fun findProducts(): List<Product> = db.findProducts()
 
+    fun findProductById(id: String): Product = db.findProductById(id)
+
     fun post(message: Product){
         db.save(message)
     }

@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b03eecb8-2262-4293-9dc2-f2b0558fcf8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Controllers/ProductController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Models/Product.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Repository/ProductRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Service/ProductService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductsSample/src/main/resources/sql/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsSample/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsSample/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsSample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsSample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsSample/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsSample/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Controllers/ProductController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Controllers/ProductController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Repository/ProductRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Repository/ProductRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Service/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Service/ProductService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsSample/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsSample/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsSample/src/test/kotlin/com/corporate/ProductsSample/ProductsSampleApplicationTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testdb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/testdb.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +37,17 @@
         <task path="ProductsSample">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/ProductsSample">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProductsSample" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -59,11 +74,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager">
     <configuration name="ProductsSampleApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corporate.ProductsSample.ProductsSampleApplicationKt" />
-      <module name="ProductsSample.ProductsSample.main~1" />
+      <module name="ProductsSample.main" />
       <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,20 +117,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Controllers/ProductController.kt</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/ProductsSample/src/main/kotlin/com/corporate/ProductsSample/Service/ProductService.kt</url>
-          <line>11</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
